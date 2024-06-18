@@ -32,6 +32,7 @@ export default function(){
                             <label>Insert title: </label>
                             <input type="text"
                             value={title}
+                            required
                             onChange={ e => setTitle(e.target.value)}
                             />
                             <button type="submit"> Crea </button>
